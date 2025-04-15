@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+
+@import url("reset.css");
+
+/*
+
+FONTS
+
+.orbitron-bold {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.anuphan-regular {
+  font-family: "Anuphan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+COLORS
+
+dark-grey: #0B0704
+black: #000000
+white: #FFFFFF
+pink: #E62077
+yellow: #FFD200
+blue: #29D3C6
+
+*/
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .hero-p {
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 2rem;
+  }
+
+  .btn-register {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #29D3C6;
+    background-color: #0B0704;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #29D3C6;
+  }
+
+  .btn-tickets {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    background-color: #E62077;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+  }
+
+  .btn-event {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    background-color: #FFD200;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+  }
+
+  .btn-purchase {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    background-color :#29D3C6;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+
+  }
+
+  .h1-yellow {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFD200;
+    font-size: 64px;
+  }
+
+  .h1-black {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    font-size: 64px;
+  }
+
+  .h3-black {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .black-p {
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    font-size: 16px;
+    line-height: 2rem;
+    width: 292px;
+  }
+
+  .white-p {
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 2rem;
+  }
+
+  .h3-pink {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #E62077;
+    font-size: 20px;
+  }
+
+  .h3-blue {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #29D3C6;
+    font-size: 20px;
+  }
+
+  .h3-yellow {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFD200;
+    font-size: 20px;
+  }
+
+  .h1-blue {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #29D3C6;
+    font-size: 64px;
+  }
+
+  .tickets-sub-yellow {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color :#FFD200;
+    font-size: 20px;
+  }
+
+  .tickets-sub-pink {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #E62077;
+    font-size: 20px;
+  }
+
+  .tickets-sub-blue {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #29D3C6;
+    font-size: 20px;
+  }
+
+  .tickets-p {
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  .h2-pink {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #E62077;
+    font-size: 20px;
+  }
+
+  .h2-blue {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color:#29D3C6;
+    font-size: 20px;
+  }
+
+  .h2-yellow {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFD200;
+    font-size: 20px;
+  }
+
+
