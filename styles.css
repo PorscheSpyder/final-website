@@ -51,7 +51,11 @@ a {
     font-style: normal;
     font-size: 20px;
     color: #FFFFFF;
-    line-height: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 726px;
+    margin-bottom: 25px;
+    margin-left: 81px;
   }
 
   .btn-register {
@@ -82,6 +86,7 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
+    margin-left: 35px;
   }
 
   .btn-event {
@@ -120,6 +125,9 @@ a {
     font-style: normal;
     color: #FFD200;
     font-size: 64px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
   }
 
   .h1-black {
@@ -129,6 +137,9 @@ a {
     font-style: normal;
     color: #000000;
     font-size: 64px;
+    margin-left: 75px;
+    margin-top: 69px;
+    margin-bottom: 43px;
   }
 
   .h3-black {
@@ -139,6 +150,8 @@ a {
     color: #000000;
     font-size: 20px;
     line-height: 2rem;
+    margin-left: 34px;
+    margin-right: 54px;
   }
 
   .black-p {
@@ -150,6 +163,8 @@ a {
     font-size: 16px;
     line-height: 2rem;
     width: 292px;
+    margin-left: 34px;
+    margin-right: 54px;
   }
 
   .white-p {
@@ -261,4 +276,121 @@ a {
     font-size: 20px;
   }
 
+  .logo-nav {
+    height: 175px;
+    width: 175px;
+    margin-left: 75px;
+  }
 
+  nav {
+    display: flex;
+    height: 180px;
+    width: 1440px;
+    background-color: #0B0704;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    height: 54px;
+    width: 470px;
+    align-items: center;
+    justify-content: space-bewteen;
+    margin-left: 700px;
+  }
+
+  .hero-container {
+    height: 820px;
+    width: 1440px;
+    background-image: url("images/hero-img.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    height: 335px;
+    width: 750px;
+  }
+
+  .hero-banner-text {
+    width: 750px;
+    height: 214px;
+    margin-top: 230px;
+    margin-left: 69px;
+  }
+
+  .hero-btn {
+    margin-left: 363px;
+    margin-top: 25px;
+  }
+
+  .events-container {
+    height: 1244px;
+    width: 1440px;
+    background-image: url("images/events-bckgrnd.png");
+    background-repeat: no-repeat;
+    margin-top: -55px;
+  }
+
+  .card-container {
+    height: 450px;
+    width: 380px;
+    background-color: #FFFFFF;
+    padding-bottom: 38px;
+    border-radius: 15px;
+  }
+
+  .events-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1229px;
+    margin-left: 50px;
+  }
+
+  .events-cards li {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.bottom-cards {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.ticket-card {
+    height: 155px;
+    width: 360px;
+    background-color: #0B0704;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-left: 34px;
+}
+
+.ticket-container {
+    display: flex;
+    height: 88px;
+    width: 1191px;
+}
+
+.ticket-container ul {
+    width: 1186px;
+    display: flex;
+    flex-direction: column wrap;
+}
+
+html {
+    width: 1440px;
+}
+
+@media (min-width: 393px) {
+    .logo-nav {
+        height: 125px;
+        width: 125px;
+        margin-left: 13px;
+      }
+}
