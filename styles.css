@@ -523,7 +523,8 @@ a {
     height: 219px;
     width: 219px;
     margin-top: 57px;
-    margin-left: 55px;
+    margin-left: 89px;
+    margin-bottom: 15px;
   }
 
   footer {
@@ -532,12 +533,12 @@ a {
     background-image: url("images/mobile-footer-bckgrnd.png");
     background-repeat: no-repeat;
   }
-
   .btn-tickets-footer {
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    font-size: 16px;
     color: #000000;
     background-color: #E62077;
     padding-left: 15px;
@@ -545,8 +546,7 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
-    margin-left: 79px;
-    margin-bottom: 60px;
+    margin-left: 80px;
   }
 
   .white-p-footer {
@@ -558,7 +558,9 @@ a {
     font-size: 16px;
     line-height: 2rem;
     text-align: center;
-    margin-left: 10px;
+    width:333px;
+    margin-top: 66px;
+    margin-left: 29px;
   }
 
 html {
@@ -928,6 +930,8 @@ html {
       .logo-footer {
         height: 160px;
         width: 160px;
+        margin-top: 15px;
+        margin-bottom: -50px;
       }
 
       footer {
@@ -937,20 +941,12 @@ html {
         background-repeat: no-repeat;
       }
 
-      .footer-left {
-        padding-top: 20px;
-        margin-left: 34px;
-      }
-
-      .footer-right {
-        padding-left: 948px;
-      }
-
       .btn-tickets-footer {
         font-family: "Orbitron", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
+        font-size: 16px;
         color: #000000;
         background-color: #E62077;
         padding-left: 15px;
@@ -958,7 +954,7 @@ html {
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 10px;
-        margin-left: 265px;
+        margin-left: 875px;
       }
 
       .white-p-footer {
@@ -969,5 +965,8 @@ html {
         color: #FFFFFF;
         font-size: 16px;
         line-height: 2rem;
+        margin-left: 890px;
+        margin-top: 40px;
+        width: 500px;
       }
 }
